@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.books {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.books h2 {
+    color: #007bff;
+}
+
+.books ul {
+    list-style: none;
+    padding: 0;
+}
+
+.books li {
+    margin: 10px;
+}
+
+.books a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.books a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
